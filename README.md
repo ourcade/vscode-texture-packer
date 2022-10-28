@@ -142,6 +142,14 @@ _default_: `smart`
 
 _default_: `best-short-side-fit`
 
+---
+
+**deep**: `boolean`
+
+_default_: `false`
+
+Include textures in nested folders when `deep` is set to `true`. Nested folders that have an `atlas.config.json` are automatically ignored.
+
 ## Got an issue?
 
 This extension is very new and not yet tested in a wide variety of projects or workflows so let us know if something's not working or if there's a use-case that you'd love to see!
@@ -152,7 +160,13 @@ Join the Ourcade Discord: https://discord.gg/p3vfese
 
 ## Release Notes
 
-### v0.0.2
+### v0.0.4
+
+##### October 28th, 2022
+
+Added support for nested folders when `deep` is set to `true`. Nested folders that have an `atlas.config.json` are automatically ignored.
+
+### v0.0.3
 
 ##### October 26th, 2022
 
