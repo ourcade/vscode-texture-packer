@@ -150,6 +150,16 @@ _default_: `false`
 
 Include textures in nested folders when `deep` is set to `true`. Nested folders that have an `atlas.config.json` are automatically ignored.
 
+---
+
+**outDir**: `string`
+
+_default_: `./`
+
+Relative path from `atlas.config.json` where generated atlas image and JSON files should be saved to.
+
+For example, saving to the the parent folder would be: `"ourDir": ".."`.
+
 ## Got an issue?
 
 This extension is very new and not yet tested in a wide variety of projects or workflows so let us know if something's not working or if there's a use-case that you'd love to see!
@@ -159,6 +169,12 @@ Reach out on Twitter [@iamsupertommy](https://twitter.com/iamsupertommy) or [@ou
 Join the Ourcade Discord: https://discord.gg/p3vfese
 
 ## Release Notes
+
+### v0.0.5
+
+##### October 31st, 2022
+
+Added optional `outDir` config property to save generated atlas files in a different directory than where source images are located.
 
 ### v0.0.4
 
