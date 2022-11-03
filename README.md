@@ -170,20 +170,8 @@ Join the Ourcade Discord: https://discord.gg/p3vfese
 
 ## Release Notes
 
-### v0.0.5
+### v0.0.6
 
-##### October 31st, 2022
+##### November 3rd, 2022
 
-Added optional `outDir` config property to save generated atlas files in a different directory than where source images are located.
-
-### v0.0.4
-
-##### October 28th, 2022
-
-Added support for nested folders when `deep` is set to `true`. Nested folders that have an `atlas.config.json` are automatically ignored.
-
-### v0.0.3
-
-##### October 26th, 2022
-
-Initial release with basic texture packing functionality.
+Add JSON Schema for `atlas.config.json` files to provide autocompletion when modifying them.
